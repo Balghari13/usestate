@@ -1,19 +1,4 @@
 
-name: Deploy Website
-
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Deploying to surge
-    steps:
-      - uses: actions/checkout@v2
-      - name: Install Node.js
-  
-
-
-# This is a basic workflow to help you get started with Actions
-
 name: class02
 
 # Controls when the action will run. 
