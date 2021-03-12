@@ -21,7 +21,7 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build bootcamp_react_najum12121.surge.sh --token ${{ secrets.CLASS_TOKEN }}
+        run: surge ./build helpful-stop.surge.sh --token ${{ secrets.CLASS_TOKEN }}
 
 
 
